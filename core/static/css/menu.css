@@ -19,12 +19,14 @@ strong {
 }
 
 header {
+  font-size: xx-large;
+  font-family: 'Times New Roman', Times, serif;
   display: flex;
   position: fixed;
   width: 100%;
   height: 70px;
-  background: #212121;
-  color: #fff;
+  background: #c97070;
+  color: rgb(228, 161, 17);
   justify-content: center;
   align-items: center;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -98,13 +100,13 @@ main small {
   pointer-events: auto;
   margin-left: 25px;
   touch-action: manipulation;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: rgb(0,0,0,0);
 }
 .icon-bar {
   display: block;
   width: 100%;
   height: 3px;
-  background: #aaa;
+  background: rgb(228, 161, 17);
   transition: .3s;
 }
 .icon-bar + .icon-bar {
@@ -135,11 +137,12 @@ main small {
   height: calc(100% - 70px);
   background: #ececec;
   pointer-events: auto;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: rgba(223, 226, 30, 0);
   transform: translateX(-100%);
   transition: transform .3s;
   will-change: transform;
   contain: paint;
+  color: rgb(228, 161, 17);
 }
 
 #nav-content ul {
@@ -156,7 +159,7 @@ main small {
 }
 
 #nav-content li a:hover {
-  color: #BF7497;
+  color: #c97070;
 }
 
 #nav-content li:not(.small) + .small {
@@ -171,7 +174,7 @@ main small {
 .small a {
   font-size: 12px;
   font-weight: 400;
-  color: #888;
+  color: rgb(228, 161, 17);
 }
 .small a + a {
   margin-left: 15px;
