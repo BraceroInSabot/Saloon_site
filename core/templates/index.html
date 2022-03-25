@@ -27,10 +27,9 @@
           </div>
           <div id="nav-content" tabindex="0">
             <ul>
-              <li><a href="#0">Home</a></li>
-              <li><a href="#0">Services</a></li>
-              <li><a href="#0">About</a></li>
-              <li><a href="#0">Contact</a></li>
+              <li><a href="{% url 'home' %}">Menu</a></li>
+              <li><a href="#0">Serviços</a></li>
+              <li><a href="{% url 'contact' %}">Contato</a></li>
               <li class="small"><a href="https://www.facebook.com/profile.php?id=100063543549916">Facebook</a><a href="https://www.instagram.com/neia_bracero/">Instagram</a></li>
             </ul>
           </div>
@@ -39,9 +38,14 @@
       
         <main>
           <div class="content">
-            <h2>Off-screen navigation using <span>:focus-within</span></h2>
-            <p>Adding yet another pure CSS technique to the list of off-screen navigation by "hacking" the :focus-within pseudo-class. Have a look at the code to see how it works.</p>
-            <small><strong>NB!</strong> Use a browser that supports :focus-within</small>
+            <br></br>
+            <img src="{% static 'images/ubuntu_wallp.jpg' %}" alt="Família" width="600" height="500">
+            <br></br>
+            <h2 id="familia"> Família unida, <strong id="sempre">sempre!</strong></h2>
+            <p>Trabalhando como cabeleleira, pedicure e manicure há ### anos, Rosineia encontra conforto em sua área, o bastante para incentivar sua filha, Nayara, a seguir um rumo semelhante ao seu.</p>
+            <p>Hoje, a mãe e filha vivem vidas diferentes e compartilham do mesmo local de trabalho, oferecendo serviços como cortes de cabelos femininos, venda de produtos, pedicure, manicure ...</p>
+            <small id="small_main_text" >Clique <a href="{% url 'contact' %}"><strong id="aqui">AQUI</strong></a> para ver as formas de entrar em contato.</small>
+            <br></br>
           </div>
         </main>
       </div>
