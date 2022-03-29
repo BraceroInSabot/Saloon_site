@@ -5,10 +5,6 @@
     background-color: #c97070;
 }
 
-
-.contact_page img {
-    vertical-align: middle;
-    height: auto;
-    width: 100%;
-  }
-
+body {
+    background-color: #ffff;
+}
