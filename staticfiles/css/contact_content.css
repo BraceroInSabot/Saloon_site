@@ -1,0 +1,14 @@
+.title {
+    font-weight: bold;
+    text-align: center;
+    color: rgb(228, 161, 17);
+    background-color: #c97070;
+}
+
+
+.contact_page img {
+    vertical-align: middle;
+    height: auto;
+    width: 100%;
+  }
+

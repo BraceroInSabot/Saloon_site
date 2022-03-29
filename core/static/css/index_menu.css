@@ -44,19 +44,20 @@ main > div {
   max-width: 600px;
 }
 
-main h2 span {
-  color: #BF7497;
-}
-
 main p {
   line-height: 1.5;
   font-weight: 200;
   margin: 20px 0;
+  text-align: justify;
 }
 
-main small {
-  font-weight: 300;
-  color: #888;
+#small_main_text {
+  font-weight: 900;
+  color: #c97070;
+}
+
+#aqui {
+  color: rgb(228, 161, 17);
 }
 
 #nav-container {
@@ -65,6 +66,7 @@ main small {
   width: 100%;
   pointer-events: none;
 }
+
 #nav-container .bg {
   position: absolute;
   top: 70px;
@@ -76,6 +78,7 @@ main small {
   transition: .3s;
   background: #000;
 }
+
 #nav-container:focus-within .bg {
   visibility: visible;
   opacity: .6;
@@ -213,8 +216,14 @@ a {
   transition: .2s ease-in-out;
 }
 
-h1, h2, h3, h4 {
+h2 {
   margin: 0;
+  text-align: center;
+  color: #c97070;
+}
+
+#sempre {
+  color: rgb(228, 161, 17);
 }
 
 ul {

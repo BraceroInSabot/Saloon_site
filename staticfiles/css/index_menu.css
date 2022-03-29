@@ -52,7 +52,6 @@ main p {
 }
 
 #small_main_text {
-  text-align: center;
   font-weight: 900;
   color: #c97070;
 }
@@ -67,6 +66,7 @@ main p {
   width: 100%;
   pointer-events: none;
 }
+
 #nav-container .bg {
   position: absolute;
   top: 70px;
@@ -78,6 +78,7 @@ main p {
   transition: .3s;
   background: #000;
 }
+
 #nav-container:focus-within .bg {
   visibility: visible;
   opacity: .6;
