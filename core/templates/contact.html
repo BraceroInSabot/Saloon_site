@@ -15,6 +15,8 @@
     <link href="{% static 'css/nav_bar.css' %}" rel="stylesheet">
     <link href="{% static 'css/contact_content.css' %}" rel="stylesheet">
     <link href="{% static 'css/contact_images.css' %}" rel="stylesheet">
+    <link href="{% static 'css/footer.css' %}" rel="stylesheet">
+    
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -29,9 +31,9 @@
 
         <div id="navbarSupportedContent" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
-            <li class="nav-item active"><a href="{% url 'home' %}" class="nav-link" style="color: rgb(255, 174, 0);">Menu<span class="sr-only">(current)</span></a></li>
+            <li class="nav-item active"><a href="{% url 'home' %}" class="nav-link" style="color: rgb(255, 174, 0);">Início<span class="sr-only">(current)</span></a></li>
             <li class="nav-item"><a href="{% url 'services' %}" class="nav-link" style="color: rgb(255, 174, 0);">Serviços</a></li>
-            <li class="nav-item"><a href="{% url 'contact' %}" class="nav-link" style="color: rgb(255, 174, 0);">Contato</a></li>
+            <li class="nav-item"><a href="{% url 'contact' %}" class="nav-link" style="color: rgb(255, 174, 0); font-weight: bold;">Contato</a></li>
             </ul>
         </div>
         </div>
@@ -42,7 +44,7 @@
     <section>
         <!-- Contact Page contents -->
         <div class="row">
-            <div class="col-6 bg-light p-3" id="contact_page">
+            <div class="col-6 bg-light p-3">
                 <img src="{% static 'images/ubuntu_wallp.jpg' %}" class="center" alt="Rosineia Bracero">
                 <div class="align-items-start">
                     
@@ -60,11 +62,12 @@
                             <h5 class="title">O que eu faço?</h5>
                         </div>
                         <br></br>
-                        <p style="font-weight: 500;">- Manicure, Pedicure, cabelos de todos os sexos e idade, vendo semijois e roupas. 
+                        <p style="font-weight: 500;">- Cortes de cabelos unissex (químicas em geral);</p>
+                        <p style="font-weight: 500;">- Vendas de semijoias, perfumarias e rouparias;</p> 
                     </div>
                 </div>
             </div>
-            <div class="col-6 bg-light p-3 border" >
+            <div class="col-6 bg-light p-3 " >
                 <img src="{% static 'images/ubuntu_wallp.jpg' %}" class="center" alt="Rosineia Bracero">
                 <div class="align-items-start">
                     
@@ -83,13 +86,31 @@
                             <h5 class="title">O que eu faço?</h5>
                         </div>
                         <br></br>
-                        <p style="font-weight: 500;">- Micropigmentação, Design de sobrancelhas, Depilação marroquina</p> 
+                        <p style="font-weight: 500;">- Micropigmentação;</p>
+                        <p style="font-weight: 500;">- Design de sobrancelhas;</p>
+                        <p style="font-weight: 500;">- Depilação marroquina;</p> 
                     </div>
                 </div>
             </div>
         </div>
         <!-- End of Contact Page Contents-->
-    </section>  
+    </section>
+
+    <!-- Footer -->
+    <div class="footer-basic">
+        <footer>
+            <div class="social"> 
+              <p><strong>Endereço:</strong> Rua Itapura, nº1746, Jardim São Jorge.</p>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="{% url 'home' %}">Início</a></li>
+                <li class="list-inline-item"><a href="{% url 'services' %}">Serviços</a></li>
+                <li class="list-inline-item"><a href="{% url 'contact' %}" style="font-weight: bold;">Contato</a></li>
+            </ul>
+            <p class="copyright">Guilherme Bracero © 2022</p>
+        </footer>
+      </div>
+      <!-- End of Footer -->  
 
     
     
