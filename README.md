@@ -57,7 +57,7 @@ Licenças e direitos sobre o código:
 1. É um código free code. Pegar do meu código para colar no seu é permitido.
 2. Em hipostése alguma é permitida a venda de projetos com MUITA semelheança à esse.
 3. As pessoas que compartilharam dos seus dados para a criação da página, não permitem que estranhos os usem.
-4. Foi pedida a permissão para a publicação de todo o dado compartilhado no projeto
+4. Foi pedida a permissão para a publicação de todo o dado compartilhado no projeto.
 
 ### EN-US
 Licence and rights about the code:
